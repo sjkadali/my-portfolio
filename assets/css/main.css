@@ -2679,18 +2679,15 @@ input, select, textarea {
 /* Actions */
 
 	ul.actions {
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
 		display: flex;
 		cursor: default;
 		list-style: none;
 		margin-left: -1rem;
-		padding-left: 0;
+		padding-left: 1rem;
 	}
 
 		ul.actions li {
-			padding: 0 0 0 1rem;
+			padding: 4rem 10rem 1rem 1rem;
 			vertical-align: middle;
 		}
 
@@ -3823,10 +3820,7 @@ input, select, textarea {
 
 			}
 
-		#main > .posts {
-			display: -moz-flex;
-			display: -webkit-flex;
-			display: -ms-flex;
+		#main > .posts {			
 			display: flex;
 			-moz-flex-wrap: wrap;
 			-webkit-flex-wrap: wrap;
