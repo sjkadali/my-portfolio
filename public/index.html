@@ -1,123 +1,89 @@
-<!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>My Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">		
-					<!-- Intro -->
-					<div id="intro">					
-						<h2><a href="#">Sajna Kadalikat</a></h2>
-								<p>Masters in Computer Applications <br/>
-									Contributed to open source projects on Github like <a href="https://github.com/open-learning-exchange/planet" >OpenSource Learning Exchange, </a>
-									<a href="https://github.com/TEAMMATES/teammates" >Teammates, </a><a href="https://github.com/oppia/oppia" >Oppia</a><br />
-								 Proficient in Javascript, HTML, CSS, Angular , React, NoSQL and other latest Web development technologies<br />
-								 Sun Certified Java Programmer</p>	
-						<ul class="actions">
-							<li><a href="#main" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>														
-					</div>	
-				<!-- Main -->
-					<div id="main">							
-						<h2><a href="#main">Projects</a></h2>									
-						<!-- Posts -->											
-							<section id="posts" class="posts">																										
-								<article>																		
-									<header>									
-										<h3><a href="https://sk-online-shop.herokuapp.com/">Ecommerce Project- Online Shop</a></h3>
-									</header>
-									<a href="https://sk-online-shop.herokuapp.com/" class="image fit"><img src="images/online-shop.png" alt="" /></a>
-									<ul class="actions special">
-										<li><a href="#post1" class="button">Details</a></li>
-									</ul>
-								</article>	
-								<article>
-									<header>										
-										<h3><a href="#post2">Friendly Chat<br /></a></h3>
-									</header>
-									<a class="image fit"><img src="images/friendly-chat.png" alt="" /></a>
-									<ul class="actions special">
-										<li><a href="#post2" class="button">Details</a></li>
-									</ul>										
-								</article>																																			
-								<article>
-									<header>										
-										<h3><a href="#post3">Facebook Clone<br /></a></h3>
-									</header>
-									<a class="image fit"><img src="images/fb-clone.png" alt="" /></a>
-									<ul class="actions special">
-										<li><a href="#post3" class="button">Details</a></li>
-									</ul>										
-								</article>																																									
-							</section>
-							<section >								
-								<article id="post1" class="post featured">
-									<h3>Online Shop</h3>
-									<p> OnlineShop is created using MongoDB, Express, React and Node.<br/>						
-										It uses React library for the Ecommerce Frontend like sign-in form, register form, shopping cart etc. ,
-										Node and Express framework to run web server and API endpoint. HTML and CSS including grid, flexbox and responsive design is used.
-										Mongoose is used to add and retrieve data from MongoDB Atlas database. Web Application is deployed on Heroku Server.
-									</p>
-								</article>
-								<article id="post2" class="post featured">
-									<h3>FriendlyChat</h3>									
-									<p>FriendlyChat is created using React Library for the Frontend and Firebase for the backend. HTML and CSS including grid, flexbox 
-										and responsive design is used.
-									</p>
-								</article>
-								<article id="post3" class="post featured">
-									<h3>Facebook Clone</h3>									
-									<p>Facebook Clone is created using Angular framework for the Frontend and Firebase for the backend. HTML and CSS including grid, flexbox 
-										and responsive design is used.
-									</p>
-								</article>																	
-							</section>
-							<ul class="actions">
-								<li><a href="#footer" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-							</ul>																																
-				</div>
-				<!-- Footer -->
-					<footer id="footer">						
-						<section class="split contact">							
-							<section>
-								<h3>Phone</h3>
-								<p>(978) 631-5519</p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href = "mailto: skadalikat@gmail.com">skadalikat@gmail.com</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">									
-									<li><a href="https://www.linkedin.com/in/sajnakt" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									<li><a href="https://github.com/sjkadali" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-							<ul class="actions">
-								<li><a href="#intro" class="button icon solid solo fa-arrow-up scrolly">up</a></li>
-							</ul>										
-						</section>
-					</footer>
-			</div>
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to Firebase Hosting</title>
 
-	</body>
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/9.0.2/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/9.0.2/firebase-auth.js"></script>
+    <script defer src="/__/firebase/9.0.2/firebase-database.js"></script>
+    <script defer src="/__/firebase/9.0.2/firebase-firestore.js"></script>
+    <script defer src="/__/firebase/9.0.2/firebase-functions.js"></script>
+    <script defer src="/__/firebase/9.0.2/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/9.0.2/firebase-storage.js"></script>
+    <script defer src="/__/firebase/9.0.2/firebase-analytics.js"></script>
+    <script defer src="/__/firebase/9.0.2/firebase-remote-config.js"></script>
+    <script defer src="/__/firebase/9.0.2/firebase-performance.js"></script>
+    <!-- 
+      initialize the SDK after all desired features are loaded, set useEmulator to false
+      to avoid connecting the SDK to running emulators.
+    -->
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+
+    <style media="screen">
+      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
+      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
+      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
+      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
+      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
+      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
+      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
+      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
+      @media (max-width: 600px) {
+        body, #message { margin-top: 0; background: white; box-shadow: none; }
+        body { border-top: 16px solid #ffa100; }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="message">
+      <h2>Welcome</h2>
+      <h1>Firebase Hosting Setup Complete</h1>
+      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
+      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
+    </div>
+    <p id="load">Firebase SDK Loading&hellip;</p>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const loadEl = document.querySelector('#load');
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+        // // The Firebase SDK is initialized and available here!
+        //
+        // firebase.auth().onAuthStateChanged(user => { });
+        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+        // firebase.firestore().doc('/foo/bar').get().then(() => { });
+        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
+        // firebase.messaging().requestPermission().then(() => { });
+        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+        // firebase.analytics(); // call to activate
+        // firebase.analytics().logEvent('tutorial_completed');
+        // firebase.performance(); // call to activate
+        //
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+        try {
+          let app = firebase.app();
+          let features = [
+            'auth', 
+            'database', 
+            'firestore',
+            'functions',
+            'messaging', 
+            'storage', 
+            'analytics', 
+            'remoteConfig',
+            'performance',
+          ].filter(feature => typeof app[feature] === 'function');
+          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
+        } catch (e) {
+          console.error(e);
+          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
+        }
+      });
+    </script>
+  </body>
 </html>
